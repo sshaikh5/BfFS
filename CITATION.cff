@@ -1,0 +1,39 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: BfFS
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Sohail
+    family-names: Shaikh
+    email: mshaikh5@gmu.edu
+    affiliation: George Mason University
+repository-code: 'https://github.com/sshaikh5/BfFS'
+abstract: >-
+  As the volume of data being produced is increasing
+  exponentially and needs to be processed quickly, it is
+  reasonable that the data needs to be available very close
+  to the compute devices to reduce transfer latency. Due to
+  this need, local filesystems are getting close attention
+  to understand their inner workings, performance, and, more
+  importantly, their limitations. This study analyzes a few
+  popular Linux filesystems: EXT4, XFS, BtrFS, ZFS, and F2FS
+  by creating, storing, and then reading back one billion
+  files from the local filesystem. The study also captured
+  and analyzed read/write throughput, storage block usage,
+  disk space utilization and overheads, and other metrics
+  useful for system designers and integrators. Furthermore,
+  the study explored other side effects, such as filesystem
+  performance degradation during and after large files and
+  folders are created.
+keywords:
+  - >-
+    Linux, filesystem, EXT4, XFS, BtrFS, F2FS, ZFS,
+    performance, statistics
+license: MIT
+version: '1.0'
+date-released: '2024-07-10'
